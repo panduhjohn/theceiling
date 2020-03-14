@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>The Ceiling</title>
+        <% include ./partials/head %>
+    </head>
+    <body>
+        <div class="weed-background" style="height: 100%; width: 100%; color: black;">
+            <h1 style="color: #2D7937">Location Verification page</h1>
+            <p style="color: #2D7937">Check if the current state is legal</p>
+
+            <div class='firstCheck'>
+                <form action="/" method="POST">
+                    <input type="text" name="stateName" id="stateName" /> <br/>
+                    <button type="button" class="btn btn-success">Send it</button>
+                </form>
+    
+            </div>
+        </div>
+
+       
+        <% include ./partials/scripts %>
+    </body>
+</html>
